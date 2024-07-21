@@ -3,7 +3,7 @@ This repository contains the source code of HackyAIMod.
 
 # Deployment
 ## Using Docker
-1. Download the ![Dockerfile](https://github.com/dkvc/HackyAIMod/blob/main/Dockerfile) from repository.
+1. Download the ![Dockerfile](https://github.com/chatotp/HackyAIMod/blob/main/Dockerfile) from repository.
 2. Build the image:
 ```
 docker build -t HackyAI
@@ -27,7 +27,7 @@ docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --security-opt=l
 
 1. Clone the git repository.
 ```
-git clone https://github.com/dkvc/HackyAI.git
+git clone https://github.com/chatotp/HackyAIMod.git
 ```
 
 2. Install required dependencies from requirements.txt
