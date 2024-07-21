@@ -7,7 +7,7 @@ RUN useradd -m tf
 USER tf
 
 RUN cd /home/tf \
-    && git clone https://github.com/dkvc/HackyAIMod.git \
+    && git clone https://github.com/chatotp/HackyAIMod.git \
     && cd HackyAIMod \
     && pip install -r reqs-without-tf.txt
 
